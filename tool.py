@@ -102,7 +102,7 @@ class trainer():
         plt.xlabel('Epoch')
         plt.legend(['train'], loc='upper left')
         plt.show()
-        
+
 class imageDataset(Dataset):
     def __init__(self, data, labels):
         self.data = data
